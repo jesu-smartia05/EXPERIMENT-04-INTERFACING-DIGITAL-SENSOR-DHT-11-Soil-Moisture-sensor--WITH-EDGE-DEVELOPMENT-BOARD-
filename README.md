@@ -2,9 +2,9 @@
 
 ---
 
-### **NAME:** THEJASWINI D 
+### **NAME:** JESU SMARTIA A
 ### **DEPARTMENT:** B.E.CSE(IOT)
-### **ROLL NO:** 21222311059
+### **ROLL NO:** 212223110016
 ### **DATE OF EXPERIMENT:** 26.02.2026
 
 ---
@@ -76,7 +76,7 @@ DHT_SENSOR = Adafruit_DHT.DHT11
 DHT_PIN = 18   # GPIO4
 
 # ---------------- HiveMQ Cloud Credentials ----------------
-MQTT_BROKER = "be4daaf974724cbab01c4f4f3198b687.s1.eu.hivemq.cloud"
+MQTT_BROKER = "804bc14ead4b4ebe8f5bbb8d93874976.s1.eu.hivemq.cloud"
 MQTT_PORT = 8883
 MQTT_USER = "hivemq.webclient.1772095046804"
 MQTT_PASSWORD = "0ut3P%f#jSZW,Lk1Y9!a"
@@ -116,10 +116,8 @@ while True:
 ```
 ### OUPUT  
 ![WhatsApp Image 2026-02-27 at 1 21 49 PM](https://github.com/user-attachments/assets/3624c37f-714b-49a4-ac07-2a2142bc874b)
-
-![WhatsApp Image 2026-02-27 at 1 52 29 PM](https://github.com/user-attachments/assets/da0ecc8c-c022-4614-9a24-d0f98a347703)
-
-<img width="1890" height="888" alt="Screenshot 2026-02-26 143601" src="https://github.com/user-attachments/assets/e1ebe5bc-e76b-441c-be83-ac45875d561b" />
+![WhatsApp Image 2026-02-27 at 2 01 43 PM](https://github.com/user-attachments/assets/7825b6a5-25a4-4c63-881e-c8412d124f7a)
+<img width="1880" height="856" alt="Screenshot 2026-02-27 111733" src="https://github.com/user-attachments/assets/42a4e45a-b510-4b10-9a5d-8bf2614c7b12" />
 
 ## Experiment 4B
 ## PROGRAM (Python)
@@ -136,12 +134,12 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(DIGITAL_PIN, GPIO.IN)
 
 # ---------------- MQTT Setup ----------------
-broker = "be4daaf974724cbab01c4f4f3198b687.s1.eu.hivemq.cloud"
+broker = "804bc14ead4b4ebe8f5bbb8d93874976.s1.eu.hivemq.cloud"
 port = 8883
 topic = "Soil Moisture"
 
-username = "hivemq.webclient.1772095046804"
-password = "0ut3P%f#jSZW,Lk1Y9!a"
+username = "hivemq.webclient.1772180523263"
+password = "3H2y:POu!hja*EG9>r4V"
 
 client = mqtt.Client()
 client.username_pw_set(username, password)
@@ -182,10 +180,10 @@ except KeyboardInterrupt:
 
 ### OUPUT :
 <img width="1204" height="1600" alt="image" src="https://github.com/user-attachments/assets/19d13038-3537-42b8-96ac-da1f39b6b7a1" />
+![WhatsApp Image 2026-02-27 at 2 04 29 PM](https://github.com/user-attachments/assets/70ca5f02-9402-4ac7-b27e-1ea3b16714bb)
+<img width="1877" height="874" alt="Screenshot 2026-02-27 135337" src="https://github.com/user-attachments/assets/6234b8a9-f617-450d-bb10-dd2bbf61ec6b" />
 
-![WhatsApp Image 2026-02-27 at 1 53 02 PM](https://github.com/user-attachments/assets/e3922d40-686e-41ad-aaa4-4027d1263fda)
 
-<img width="1918" height="917" alt="image" src="https://github.com/user-attachments/assets/c7b3ef3c-f315-4783-afc3-41fa2f3df9ac" />
 
 ## **RESULT:**  
 The **Temperature and humidity sensor (DHT 11) Soil Moisture Sensor (REES52)** was successfully interfaced with the **Raspberry Pi 4**, and real-time **Temperature, Humidity and Soil Moisture level** were read and displayed in Console and HiveMq Cloud. 
