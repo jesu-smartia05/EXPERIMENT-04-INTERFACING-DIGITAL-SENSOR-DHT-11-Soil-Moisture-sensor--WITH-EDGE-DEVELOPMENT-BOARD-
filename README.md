@@ -181,7 +181,6 @@ except KeyboardInterrupt:
 ### OUPUT :
 <img width="1204" height="1600" alt="image" src="https://github.com/user-attachments/assets/19d13038-3537-42b8-96ac-da1f39b6b7a1" />
 ![WhatsApp Image 2026-02-27 at 2 04 29 PM](https://github.com/user-attachments/assets/cf4cdbfb-60ff-433a-80d9-debe6160e548)
-
 <img width="1877" height="874" alt="Screenshot 2026-02-27 135337" src="https://github.com/user-attachments/assets/6234b8a9-f617-450d-bb10-dd2bbf61ec6b" />
 
 
